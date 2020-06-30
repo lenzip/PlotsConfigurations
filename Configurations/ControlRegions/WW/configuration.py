@@ -22,8 +22,11 @@ plotFile = 'plot.py'
 
 
 # luminosity to normalize to (in 1/fb)
-lumi = 1.270
-# 40053803.220 /ub
+#lumi = 2.318
+#lumi = 2.6
+#lumi = 4.3
+#lumi = 6.264
+lumi = 12.8890
 
 # used by mkPlot to define output directory for plots
 # different from "outputDir" to do things more tidy

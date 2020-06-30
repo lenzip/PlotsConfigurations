@@ -2,6 +2,8 @@
 
 tag = 'WW'
 
+
+# used by mkShape to define output directory for root files
 outputDir = 'rootFile'
 
 
@@ -20,12 +22,12 @@ plotFile = 'plot.py'
 
 
 # luminosity to normalize to (in 1/fb)
-lumi = 0.040
-# 40053803.220 /ub
+# lumi = 2.264
+lumi = 2.318
 
 # used by mkPlot to define output directory for plots
 # different from "outputDir" to do things more tidy
-outputDirPlots = 'plotWW'
+outputDirPlots = '/afs/cern.ch/user/n/ntrevisa/www/figuresLxplus/22Jun2016/WW/WithSF'
 
 
 # used by mkDatacards to define output directory for datacards
@@ -37,6 +39,7 @@ structureFile = 'structure.py'
 
 
 # nuisances file for mkDatacards and for mkShape
-nuisancesFile = 'nuisances.py'
+#nuisancesFile = 'nuisances_light.py'
+nuisancesFile = 'nuisancesCombine.py'
 
 
